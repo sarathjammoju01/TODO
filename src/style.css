@@ -1,0 +1,77 @@
+
+/* ============================
+    height & width
+==============================*/
+body{
+    background: linear-gradient(to right, #2fabdc94, #eeaa2290);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  =====================
+    Main Heading
+========================*/
+.mainHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* ======================
+    For input & Add Todo Button
+=======================*/
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+input {
+    width: 900px;
+    height: 35px;
+    font-size: 1.5rem;
+}
+.btnStyle{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    background-color: #0b4fd6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(239, 230, 230);
+}
+
+/*  ================================
+    For Todo Values
+===================================*/
+
+.todoStyle{
+    display: flex;
+    gap: 10px; 
+}
+.todos{
+    margin-top: 20px;
+    margin-left: 193px;
+    font-size: 1.5rem;   
+    color: black;
+    font-weight: 700px;
+}
+.TodoBtnStyle{
+    gap: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.btnRed{
+    width: 100px;
+    font-size: 1.2rem;
+    background-color: rgba(108, 16, 8, 0.948);
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
